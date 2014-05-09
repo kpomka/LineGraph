@@ -1,0 +1,26 @@
+{
+    "name": "LineGraph",
+    "version": "0.0.0",
+    "description": "LineGraph angularjs directive",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kpomka/LineGraph.git"
+    },
+    "keywords": [
+        "Angularjs",
+        "HighCharts"
+    ],
+    "author": "Roman Kupin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kpomka/LineGraph/issues"
+    },
+    "homepage": "https://github.com/kpomka/LineGraph",
+    "devDependencies": {
+        "grunt": "^0.4.4",
+        "grunt-contrib-uglify": "0.4.0"
+    }
+}

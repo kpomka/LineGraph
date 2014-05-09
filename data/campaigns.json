@@ -1,0 +1,277 @@
+{
+    "layer": {
+        "totalGuests": "331",
+        "totalAdvocates": "220",
+        "totalUniqueVisitors": "0",
+        "totalSignups": "38",
+        "totalSocialConnections": "5943",
+        "totalBookedNights": "85",
+        "dateRange": "...",
+        "trafficSources": "...",
+        "campaigns": {
+            "item": [
+                {
+                    "id": "03A66031-B413-43F4-83EF-E3CE037458EB",
+                    "type": "255",
+                    "isActive": "1",
+                    "criteriaIncentives": {
+                        "item": [
+                            {
+                                "name": "Unknown",
+                                "id": "CC0C15F6-9572-4291-9B34-1A39B7B477CD",
+                                "type": "1",
+                                "clicks": "0",
+                                "signups": "0",
+                                "minNights": "0",
+                                "maxNights": "10",
+                                "daysValidFor": "180",
+                                "isActive": "1"
+                            },
+                            {
+                                "name": "20% off at David Burke's Primehouse",
+                                "id": "AFFE1838-A766-4B4A-8D66-8C3D54B8D03F",
+                                "type": "1",
+                                "clicks": "0",
+                                "signups": "0",
+                                "daysValidFor": "180",
+                                "isActive": "1"
+                            },
+                            {
+                                "name": "complimentary room upgrade",
+                                "id": "FFDA7C2C-E9F8-4718-A5D2-050DDD2DE9ED",
+                                "type": "2",
+                                "clicks": "0",
+                                "signups": "0",
+                                "daysValidFor": "180",
+                                "isActive": "1"
+                            }
+                        ]
+                    },
+                    "dailyUniqueVisitors": {
+                        "item": [
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "1",
+                                "total": "40"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "2",
+                                "total": "16"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "3",
+                                "total": "37"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "4",
+                                "total": "20"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "7",
+                                "total": "40"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "8",
+                                "total": "60"
+                            }
+                        ]
+                    },
+                    "dailySignups": {
+                        "item": [
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "1",
+                                "total": "4"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "2",
+                                "total": "2"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "3",
+                                "total": "5"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "4",
+                                "total": "2"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "5",
+                                "total": "3"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "6",
+                                "total": "1"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "8",
+                                "total": "6"
+                            }
+                        ]
+                    },
+                    "messages": {
+                        "item": {
+                            "id": "CA94AB6F-69B9-4190-96E2-ADC217E5C205",
+                            "isActive": "1",
+                            "text": "Planning my upcoming trip to Chicago - staying at The James. 2 room upgrades for friends:"
+                        }
+                    }
+                },
+                {
+                    "id": "03A66031-B413-43F4-83EF-E3CE037458EB",
+                    "type": "255",
+                    "isActive": "1",
+                    "criteriaIncentives": {
+                        "item": [
+                            {
+                                "name": "Unknown",
+                                "id": "CC0C15F6-9572-4291-9B34-1A39B7B477CD",
+                                "type": "1",
+                                "clicks": "0",
+                                "signups": "0",
+                                "minNights": "0",
+                                "maxNights": "10",
+                                "daysValidFor": "180",
+                                "isActive": "1"
+                            },
+                            {
+                                "name": "20% off at David Burke's Primehouse",
+                                "id": "AFFE1838-A766-4B4A-8D66-8C3D54B8D03F",
+                                "type": "1",
+                                "clicks": "0",
+                                "signups": "0",
+                                "daysValidFor": "180",
+                                "isActive": "1"
+                            },
+                            {
+                                "name": "complimentary room upgrade",
+                                "id": "FFDA7C2C-E9F8-4718-A5D2-050DDD2DE9ED",
+                                "type": "2",
+                                "clicks": "0",
+                                "signups": "0",
+                                "daysValidFor": "180",
+                                "isActive": "1"
+                            }
+                        ]
+                    },
+                    "dailyUniqueVisitors": {
+                        "item": [
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "1",
+                                "total": "40"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "2",
+                                "total": "16"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "3",
+                                "total": "37"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "4",
+                                "total": "20"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "5",
+                                "total": "39"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "6",
+                                "total": "15"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "7",
+                                "total": "40"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "8",
+                                "total": "60"
+                            }
+                        ]
+                    },
+                    "dailySignups": {
+                        "item": [
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "1",
+                                "total": "4"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "2",
+                                "total": "2"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "3",
+                                "total": "5"
+                            },
+                            {
+                                "year": "2014",
+                                "month": "1",
+                                "day": "8",
+                                "total": "6"
+                            }
+                        ]
+                    },
+                    "messages": {
+                        "item": {
+                            "id": "CA94AB6F-69B9-4190-96E2-ADC217E5C205",
+                            "isActive": "1",
+                            "text": "Planning my upcoming trip to Chicago- staying at The James. 2 room upgrades for friends:"
+                        }
+                    }
+                }
+            ]
+        },
+        "touchpointGroups": {
+            "item": {
+                "id": "E01733E8-C762-4275-9E81-D93A75A2F7F8"
+            }
+        }
+    }
+}
