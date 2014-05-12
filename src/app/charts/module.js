@@ -3,11 +3,5 @@
  */
 
 
-
 angular
-    .module("LineGraph.Charts", [])
-    .factory("Highcharts", function () {
-        "use strict";
-
-        return Highcharts;
-    });
+    .module("Charts", []);

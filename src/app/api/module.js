@@ -35,10 +35,10 @@ angular
                  */
                 this.get = function () {
                     return this.$http
-                        .get(this.baseUrl + "/campaigns.json")/*
+                        .get(this.baseUrl + "/campaigns.json")
                         .then(function (response) {
                             return response.data;
-                        })*/;
+                        });
                 }
             }
 

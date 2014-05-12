@@ -8,7 +8,8 @@ angular
     [
         "ui.router",
         "LineGraph.Api",
-        "LineGraph.Charts"
+        "Charts",
+        "Underscore"
     ]).config([
         "$stateProvider", "$urlRouterProvider", "$httpProvider", "campaignsProvider",
         function ($stateProvider, $urlRouterProvider, $httpProvider, campaigns) {

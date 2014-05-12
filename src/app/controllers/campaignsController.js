@@ -7,11 +7,16 @@
 angular
     .module("LineGraph")
     .controller("LineGraph.CampaignsController",
-    [
-        "$scope", "campaigns",
-        function ($scope, campaigns) {
-            "use strict";
+        [
+            "$scope", "campaigns", "campaign",
+            function ($scope, campaigns, campaign) {
+                "use strict";
 
-            $scope.data = campaigns.get();
-        }
-    ]);
+                angular.extend($scope, { model: { mode: campaign.DailyUniqueVisitors}});
+                campaigns
+                    .get()
+                    .then(function (data) {
+                        $scope.model.campaigns = data;
+                    });
+            }
+        ]);
