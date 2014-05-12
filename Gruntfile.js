@@ -19,7 +19,8 @@ module.exports = function (grunt) {
                     'src/vendor/angular.min.js',
                     'src/vendor/angular-ui-router.min.js',
                     'src/vendor/highcharts.js',
-                    'src/vendor/jquery-1.11.1.min.js'
+                    'src/vendor/jquery-1.11.1.min.js',
+                    'src/vendor/underscore.min.js',
                 ],
                 dest: 'build/vendor.min.js'
             }
