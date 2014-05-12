@@ -7,7 +7,8 @@ angular
     .module("LineGraph",
     [
         "ui.router",
-        "LineGraph.Api"
+        "LineGraph.Api",
+        "LineGraph.Charts"
     ]).config([
         "$stateProvider", "$urlRouterProvider", "$httpProvider", "campaignsProvider",
         function ($stateProvider, $urlRouterProvider, $httpProvider, campaigns) {
