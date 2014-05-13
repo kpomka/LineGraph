@@ -46,7 +46,9 @@ angular
                                 },
                                 series: options.series || [],
                                 xAxis: options.xAxis,
-                                yAxis: options.yAxis
+                                yAxis: options.yAxis,
+                                tooltip: options.tooltip || {},
+                                plotOptions: options.plotOptions || {}
                             });
                         }
 

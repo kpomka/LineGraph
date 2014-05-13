@@ -37,7 +37,15 @@ angular
                                             type: "area",
                                             title: "Campaigns",
                                             series: campaigns.series,
-                                            xAxis: campaigns.xAxis
+                                            xAxis: campaigns.xAxis,
+                                            tooltip: {
+                                                shared: true
+                                            },
+                                            plotOptions: {
+                                                series: {
+                                                    stacking: "normal"
+                                                }
+                                            }
                                         }
                                     }
                                 });

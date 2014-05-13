@@ -25,7 +25,11 @@ angular
                         constructedObject = {
                             series: [],
                             xAxis: {
-                                categories: []
+                                categories: [],
+                                tickmarkPlacement: 'on',
+                                title: {
+                                    enabled: false
+                                }
                             }
                         };
 
@@ -33,10 +37,10 @@ angular
                      * Create campaigns array
                      */
                     this.createCampaigns = function () {
-                        _.each(campaigns, function (item) {
+                        _.each(campaigns, function (item, index) {
                             constructedObject.series.push({
                                 id: item.id,
-                                name: item.name || defaultCampaignName,
+                                name: item.name || defaultCampaignName  + index,
                                 data: []
                             });
                         });
