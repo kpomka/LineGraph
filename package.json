@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "description": "LineGraph angularjs directive",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "call run.bat"
     },
     "repository": {
         "type": "git",
@@ -21,6 +22,7 @@
     "homepage": "https://github.com/kpomka/LineGraph",
     "devDependencies": {
         "grunt": "^0.4.4",
-        "grunt-contrib-uglify": "0.4.0"
+        "grunt-contrib-uglify": "0.4.0",
+        "express": "3.4.4"
     }
 }

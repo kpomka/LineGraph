@@ -8,10 +8,12 @@
 "use strict";
 angular
     .module("Charts")
-    .factory("Highcharts", function () {
+    .factory("Highcharts", [
+        "$window",
+        function ($window) {
 
-        return Highcharts;
-    })
+            return $window.Highcharts;
+        }])
     .directive("highChart",
         [
             "Highcharts", "$parse",
