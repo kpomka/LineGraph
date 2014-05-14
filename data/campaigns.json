@@ -6,7 +6,18 @@
         "totalSignups": "38",
         "totalSocialConnections": "5943",
         "totalBookedNights": "85",
-        "dateRange": "...",
+        "dateRange": {
+            "start": {
+                "year": "2013",
+                "month": "12",
+                "day": "1"
+            },
+            "end": {
+                "year": "2014",
+                "month": "1",
+                "day": "25"
+            }
+        },
         "trafficSources": "...",
         "campaigns": {
             "item": [

@@ -9,8 +9,10 @@ angular
     .module("LineGraph")
     .factory("campaignsConverter",
         [
-            "_",
-            function (_) {
+            "_", "$filter",
+            function (_, $filter) {
+
+                var dateFilter = $filter("date");
 
                 /**
                  * Builder that creates chart options that are used in highcharts
@@ -40,7 +42,7 @@ angular
                         _.each(campaigns, function (item, index) {
                             constructedObject.series.push({
                                 id: item.id,
-                                name: item.name || defaultCampaignName  + index,
+                                name: item.name || defaultCampaignName + index,
                                 data: []
                             });
                         });
@@ -58,6 +60,7 @@ angular
                      * Creates categories array
                      */
                     this.createCategories = function () {
+                        createCategoriesByDateRange();
                         createCategories();
                         removeDuplicateCategories();
                         sortCategories();
@@ -84,9 +87,10 @@ angular
                      * @returns {{name: string, date: number, year: string, month: string, day: string}}
                      */
                     function createCategory(item) {
+                        var date = new Date(item.year, item.month, item.day);
                         return {
-                            name: String.prototype.concat(item.month, "/", item.day, "/", item.year),
-                            date: +(new Date(item.year, item.month, item.day)),
+                            name: dateFilter(date, "mediumDate"),
+                            date: +(date),
                             year: item.year,
                             month: item.month,
                             day: item.day
@@ -120,6 +124,14 @@ angular
                             });
                             return item ? parseInt(item.total, 10) : 0;
                         });
+                    }
+
+                    /**
+                     * Create categories taken from dateRange object
+                     */
+                    function createCategoriesByDateRange() {
+                        constructedObject.xAxis.categories.push(createCategory(data.layer.dateRange.start));
+                        constructedObject.xAxis.categories.push(createCategory(data.layer.dateRange.end));
                     }
 
                     /**
